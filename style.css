@@ -1,0 +1,69 @@
+:root{
+    --secondary: #8FF7A7;
+    --primary: #DE6449;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* hero section */
+.hero{
+    background: orange url(./assets/bg.jpg);
+    background-size: cover;
+    min-height: 80vh;
+}
+
+a.nav-link{
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* section */
+.section-title{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    border-bottom: 5px solid var(--secondary);
+    width: 200px;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.series-list{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 2rem;
+    text-align: center;
+    min-height: 40vh;
+}
+
+.series-list i{
+    font-size: 6rem;
+    display: block;
+}
+
+/* champions section */
+.champions-section{
+    background: rgba(255, 125, 3, 0.5);
+}
+
+.about-us{
+    background: white;
+}
+
+/* contact section */
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact i{
+    font-size: 3rem;
+}
+
+/* footer */
+footer{
+    position: relative;
+}
